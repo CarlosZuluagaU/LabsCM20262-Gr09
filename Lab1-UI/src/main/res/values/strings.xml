@@ -1,3 +1,98 @@
 <resources>
     <string name="app_name">Labs20262-Gr09</string>
+
+    <!-- PersonalDataActivity -->
+    <string name="personal_data_title">Datos personales</string>
+    <string name="first_names_label">Nombres</string>
+    <string name="last_names_label">Apellidos</string>
+    <string name="sex_label">Sexo</string>
+    <string name="sex_male">Hombre</string>
+    <string name="sex_female">Mujer</string>
+    <string name="birth_date_label">Fecha de nacimiento</string>
+    <string name="education_level_label">Grado de escolaridad</string>
+    <string name="education_primary">Primaria</string>
+    <string name="education_secondary">Secundaria</string>
+    <string name="education_technical">Técnico / Tecnológico</string>
+    <string name="education_university">Universitario</string>
+    <string name="education_postgraduate">Postgrado</string>
+
+    <string name="select_option">Seleccione…</string>
+    <string name="pick_date">Seleccionar fecha</string>
+    <string name="date_not_selected">Sin seleccionar</string>
+    <string name="required_field">Campo obligatorio</string>
+    <string name="save">Guardar</string>
+    <string name="next">Siguiente</string>
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="data_saved">Datos guardados</string>
+    <string name="check_required_fields">Complete los campos obligatorios (*)</string>
+
+    <!-- ContactDataActivity -->
+    <string name="contact_data_title">Datos de contacto</string>
+    <string name="phone_label">Teléfono</string>
+    <string name="address_label">Dirección</string>
+    <string name="email_label">Email</string>
+    <string name="country_label">País</string>
+    <string name="city_label">Ciudad</string>
+    <string name="invalid_email">Email no válido</string>
+
+    <!-- Países de Latinoamérica -->
+    <string-array name="latin_america_countries">
+        <item>Argentina</item>
+        <item>Bolivia</item>
+        <item>Brasil</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Ecuador</item>
+        <item>El Salvador</item>
+        <item>Guatemala</item>
+        <item>Haití</item>
+        <item>Honduras</item>
+        <item>México</item>
+        <item>Nicaragua</item>
+        <item>Panamá</item>
+        <item>Paraguay</item>
+        <item>Perú</item>
+        <item>Puerto Rico</item>
+        <item>República Dominicana</item>
+        <item>Uruguay</item>
+        <item>Venezuela</item>
+    </string-array>
+
+    <!-- Ciudades principales de Colombia (base local; se amplía por API en tiempo de ejecución) -->
+    <string-array name="colombia_cities">
+        <item>Bogotá</item>
+        <item>Medellín</item>
+        <item>Cali</item>
+        <item>Barranquilla</item>
+        <item>Cartagena</item>
+        <item>Cúcuta</item>
+        <item>Bucaramanga</item>
+        <item>Pereira</item>
+        <item>Santa Marta</item>
+        <item>Ibagué</item>
+        <item>Manizales</item>
+        <item>Villavicencio</item>
+        <item>Pasto</item>
+        <item>Montería</item>
+        <item>Neiva</item>
+        <item>Armenia</item>
+        <item>Popayán</item>
+        <item>Sincelejo</item>
+        <item>Valledupar</item>
+        <item>Tunja</item>
+        <item>Riohacha</item>
+        <item>Quibdó</item>
+        <item>Florencia</item>
+        <item>Yopal</item>
+        <item>Mocoa</item>
+        <item>Leticia</item>
+        <item>Arauca</item>
+        <item>San Andrés</item>
+        <item>Inírida</item>
+        <item>Puerto Carreño</item>
+        <item>Mitú</item>
+    </string-array>
 </resources>

@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Labs20262-Gr09</string>
+
+    <!-- PersonalDataActivity -->
+    <string name="personal_data_title">Personal data</string>
+    <string name="first_names_label">First names</string>
+    <string name="last_names_label">Last names</string>
+    <string name="sex_label">Sex</string>
+    <string name="sex_male">Male</string>
+    <string name="sex_female">Female</string>
+    <string name="birth_date_label">Date of birth</string>
+    <string name="education_level_label">Education level</string>
+    <string name="education_primary">Primary</string>
+    <string name="education_secondary">Secondary</string>
+    <string name="education_technical">Technical / Technological</string>
+    <string name="education_university">University</string>
+    <string name="education_postgraduate">Postgraduate</string>
+
+    <string name="select_option">Select…</string>
+    <string name="pick_date">Pick date</string>
+    <string name="date_not_selected">Not selected</string>
+    <string name="required_field">Required field</string>
+    <string name="save">Save</string>
+    <string name="next">Next</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="data_saved">Data saved</string>
+    <string name="check_required_fields">Please complete the required fields (*)</string>
+
+    <!-- ContactDataActivity -->
+    <string name="contact_data_title">Contact data</string>
+    <string name="phone_label">Phone</string>
+    <string name="address_label">Address</string>
+    <string name="email_label">Email</string>
+    <string name="country_label">Country</string>
+    <string name="city_label">City</string>
+    <string name="invalid_email">Invalid email</string>
+
+    <!-- Latin American countries -->
+    <string-array name="latin_america_countries">
+        <item>Argentina</item>
+        <item>Bolivia</item>
+        <item>Brazil</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Ecuador</item>
+        <item>El Salvador</item>
+        <item>Guatemala</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Mexico</item>
+        <item>Nicaragua</item>
+        <item>Panama</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Puerto Rico</item>
+        <item>Dominican Republic</item>
+        <item>Uruguay</item>
+        <item>Venezuela</item>
+    </string-array>
+</resources>

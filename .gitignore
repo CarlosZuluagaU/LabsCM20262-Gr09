@@ -14,3 +14,6 @@
 .cxx
 local.properties
 .kotlin
+
+# Firma (mantener el .jks a salvo; no subir credenciales)
+keystore.properties
