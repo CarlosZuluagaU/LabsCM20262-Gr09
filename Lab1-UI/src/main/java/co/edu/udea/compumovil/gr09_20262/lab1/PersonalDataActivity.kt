@@ -1,5 +1,6 @@
 package co.edu.udea.compumovil.gr09_20262.lab1
 
+import android.content.Context
 import android.content.Intent
 import android.content.res.Configuration
 import android.os.Bundle
@@ -62,7 +63,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import co.edu.udea.compumovil.gr09_20262.lab1.ui.theme.AuroraBackground
 import co.edu.udea.compumovil.gr09_20262.lab1.ui.theme.GlassCard
+import co.edu.udea.compumovil.gr09_20262.lab1.ui.theme.LanguageSwitcher
 import co.edu.udea.compumovil.gr09_20262.lab1.ui.theme.Labs20262Gr09Theme
+import co.edu.udea.compumovil.gr09_20262.lab1.util.LocaleHelper
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.GregorianCalendar
@@ -72,6 +75,10 @@ import java.util.TimeZone
 private const val TAG = "Lab1"
 
 class PersonalDataActivity : ComponentActivity() {
+    override fun attachBaseContext(newBase: Context) {
+        super.attachBaseContext(LocaleHelper.wrap(newBase))
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -255,6 +262,7 @@ fun PersonalDataScreen(modifier: Modifier = Modifier) {
                 text = stringResource(R.string.personal_data_title),
                 style = MaterialTheme.typography.headlineSmall,
             )
+            LanguageSwitcher()
 
             if (isLandscape) {
                 // --- LANDSCAPE: dos columnas para aprovechar el ancho ---

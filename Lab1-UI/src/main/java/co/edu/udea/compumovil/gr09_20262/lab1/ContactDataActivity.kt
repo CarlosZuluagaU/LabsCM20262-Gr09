@@ -1,5 +1,6 @@
 package co.edu.udea.compumovil.gr09_20262.lab1
 
+import android.content.Context
 import android.content.res.Configuration
 import android.os.Bundle
 import android.util.Log
@@ -53,7 +54,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import co.edu.udea.compumovil.gr09_20262.lab1.ui.theme.AuroraBackground
 import co.edu.udea.compumovil.gr09_20262.lab1.ui.theme.GlassCard
+import co.edu.udea.compumovil.gr09_20262.lab1.ui.theme.LanguageSwitcher
 import co.edu.udea.compumovil.gr09_20262.lab1.ui.theme.Labs20262Gr09Theme
+import co.edu.udea.compumovil.gr09_20262.lab1.util.LocaleHelper
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.json.JSONArray
@@ -64,6 +67,10 @@ import java.text.Normalizer
 private const val TAG = "Lab1"
 
 class ContactDataActivity : ComponentActivity() {
+    override fun attachBaseContext(newBase: Context) {
+        super.attachBaseContext(LocaleHelper.wrap(newBase))
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -263,6 +270,7 @@ fun ContactDataScreen(modifier: Modifier = Modifier) {
                 text = stringResource(R.string.contact_data_title),
                 style = MaterialTheme.typography.headlineSmall,
             )
+            LanguageSwitcher()
 
             if (isLandscape) {
                 Row(
