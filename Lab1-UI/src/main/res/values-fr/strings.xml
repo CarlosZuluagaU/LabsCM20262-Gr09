@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Labs20262-Gr09</string>
+
+    <!-- PersonalDataActivity -->
+    <string name="personal_data_title">Données personnelles</string>
+    <string name="first_names_label">Prénoms</string>
+    <string name="last_names_label">Noms de famille</string>
+    <string name="sex_label">Sexe</string>
+    <string name="sex_male">Homme</string>
+    <string name="sex_female">Femme</string>
+    <string name="birth_date_label">Date de naissance</string>
+    <string name="education_level_label">Niveau d\'études</string>
+    <string name="education_primary">Primaire</string>
+    <string name="education_secondary">Secondaire</string>
+    <string name="education_technical">Technique / Technologique</string>
+    <string name="education_university">Universitaire</string>
+    <string name="education_postgraduate">Troisième cycle</string>
+
+    <string name="select_option">Sélectionner…</string>
+    <string name="pick_date">Choisir une date</string>
+    <string name="date_not_selected">Non sélectionnée</string>
+    <string name="required_field">Champ obligatoire</string>
+    <string name="save">Enregistrer</string>
+    <string name="next">Suivant</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="data_saved">Données enregistrées</string>
+    <string name="check_required_fields">Veuillez remplir les champs obligatoires (*)</string>
+
+    <!-- ContactDataActivity -->
+    <string name="contact_data_title">Coordonnées</string>
+    <string name="phone_label">Téléphone</string>
+    <string name="address_label">Adresse</string>
+    <string name="email_label">Email</string>
+    <string name="country_label">Pays</string>
+    <string name="city_label">Ville</string>
+    <string name="invalid_email">Email invalide</string>
+
+    <!-- Pays d'Amérique latine -->
+    <string-array name="latin_america_countries">
+        <item>Argentine</item>
+        <item>Bolivie</item>
+        <item>Brésil</item>
+        <item>Chili</item>
+        <item>Colombie</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Équateur</item>
+        <item>Salvador</item>
+        <item>Guatemala</item>
+        <item>Haïti</item>
+        <item>Honduras</item>
+        <item>Mexique</item>
+        <item>Nicaragua</item>
+        <item>Panama</item>
+        <item>Paraguay</item>
+        <item>Pérou</item>
+        <item>Porto Rico</item>
+        <item>République dominicaine</item>
+        <item>Uruguay</item>
+        <item>Venezuela</item>
+    </string-array>
+</resources>

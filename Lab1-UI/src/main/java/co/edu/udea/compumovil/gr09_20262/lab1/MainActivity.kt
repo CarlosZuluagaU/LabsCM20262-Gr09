@@ -1,5 +1,6 @@
 package co.edu.udea.compumovil.gr09_20262.lab1
 
+import android.content.Context
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -12,8 +13,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import co.edu.udea.compumovil.gr09_20262.lab1.ui.theme.Labs20262Gr09Theme
+import co.edu.udea.compumovil.gr09_20262.lab1.util.LocaleHelper
 
 class MainActivity : ComponentActivity() {
+    override fun attachBaseContext(newBase: Context) {
+        super.attachBaseContext(LocaleHelper.wrap(newBase))
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
